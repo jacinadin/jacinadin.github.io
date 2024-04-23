@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<p><id="hasil"></p>
+      </body>
+      <H1>Rumus luas persegi panjang</H1>
+      <form id="formInput"></p>
+      <label> panjang:</label>
+        <input type = "number" id="panjang">
+        <br>
+        <label> lebar:</label>
+        <input type = "number" id="lebar">
+        <br>
+      <button onclick ="tampilkanHasil()"> hitung </button>
+      </from>
+     <script>
+      function tampilkanHasil(){
+      var panjang = document.getElementById("panjang").value;
+        var lebar = document.getElementById("lebar").value;
+     var hasil = (panjang * lebar) ; {
+      document.write ("<p> hasilnya adalah "+hasil+"</p>");
+     }
+       }
+     </script>
+    </html>
